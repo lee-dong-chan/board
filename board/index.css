@@ -8,7 +8,7 @@
       rgba(255, 255, 255) 75%,
       rgba(255, 255, 255, 0) 100%
     ),
-    url("./롤.jpg");
+    url("./lol.jpg");
   background-repeat: no-repeat;
 }
 
@@ -25,6 +25,9 @@
   margin-right: 10px;
   display: flex;
   flex-direction: column;
+}
+.new-board {
+  width: 800px;
 }
 
 #right-bar {
@@ -164,8 +167,10 @@
   display: flex;
   font-size: small;
   justify-content: space-evenly;
-  cursor: pointer;
   border-bottom: 0.3px solid gray;
+}
+.h-tag {
+  cursor: pointer;
 }
 .hot-tag .h-tag.on {
   width: 40px;
@@ -207,13 +212,21 @@
   border-right: 0.3px solid gray;
   border-bottom: 0.3px solid gray;
 }
+.ca4 img {
+  width: 250px;
+  height: 359px;
+}
 .ca5 {
   width: 250px;
-  height: 361px;
+  height: 360px;
   border-left: 0.3px solid gray;
   border-right: 0.3px solid gray;
   border-bottom: 0.3px solid gray;
   background-color: rgb(230, 224, 224);
+}
+.ca5 img {
+  width: 250px;
+  height: 360px;
 }
 .ca6 {
   width: 250px;
@@ -553,13 +566,13 @@
   margin-top: 10px;
   width: 800px;
   height: 53px;
-  background-image: url("./패차노트.png");
+  background-image: url("./patch.png");
 }
 .skin {
   margin-top: 10px;
   width: 800px;
   height: 53px;
-  background-image: url("./스킨세일.png");
+  background-image: url("./skin.png");
 }
 
 .new-board {
@@ -661,3 +674,4 @@
 .page-nums > div {
   padding: 10px;
 }
+/* <--글쓰기 --> */
