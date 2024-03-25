@@ -70,20 +70,20 @@
   background-color: rgb(252, 249, 249);
 }
 .po-box {
-  width: 248px;
+  width: 250px;
   height: 315px;
   display: inline-block;
 }
 .po-list {
   width: 248px;
-  height: 315px;
+  height: 307px;
   padding-top: 10px;
   position: absolute;
   display: none;
 }
 .po-list.on {
-  width: 248px;
-  height: 315px;
+  width: 250px;
+  height: 307px;
   display: block;
   background-color: rgb(252, 249, 249);
 }
@@ -252,6 +252,7 @@
   padding: 0px 5px;
   text-align: center;
   font-size: 15px;
+  cursor: pointer;
 }
 .in-link.on {
   color: white;
@@ -675,3 +676,186 @@
   padding: 10px;
 }
 /* <--글쓰기 --> */
+
+.toolbar {
+  width: 800px;
+  height: 120px;
+  background-color: aqua;
+}
+.toolbar-title {
+  width: 800px;
+  height: 40px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  border-top-right-radius: 3px solid gray;
+  border-bottom: 0.3px solid black;
+  background-color: gray;
+}
+.toolbar-title > div {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.toolbar-title > input {
+  width: 500px;
+  height: 25px;
+  border: 1px solid black;
+}
+.toolbar-tip {
+  width: 800px;
+  height: 30px;
+  display: flex;
+  align-content: center;
+  justify-content: end;
+  border-bottom: 0.3px solid black;
+  background-color: rgb(165, 165, 165);
+}
+.toolbar-tip > div {
+  width: 100px;
+  height: 20px;
+  padding: 10px 0px 10px 0px;
+}
+.toolbar-save {
+  width: 800px;
+  height: 50px;
+  gap: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-bottom: 0.3px solid black;
+  background-color: rgb(165, 165, 165);
+}
+.toolbar-save > div {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: gray;
+  background-color: white;
+}
+
+.write-content {
+  width: 800px;
+  height: 530pxpx;
+  padding: 10px 10px;
+}
+
+.write-edit {
+  width: 780px;
+  height: 20px;
+  border: 0.1px solid black;
+  background-color: white;
+}
+
+.write-box {
+  width: 782px;
+  height: 500px;
+  margin: 2px 0px 0px 0px;
+  border: 0.1px solid black;
+}
+.write-btns {
+  width: 800px;
+  height: 60px;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+}
+.l-btns {
+  width: 390px;
+  padding: 10px;
+  display: flex;
+}
+.l-btns > div {
+  padding: 10px;
+  margin-left: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: gray;
+}
+.r-btns {
+  width: 390px;
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+}
+.r-btns > div {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: gray;
+}
+.write-save {
+  width: 800px;
+  height: 200px;
+  border-top: 0.3px solid gray;
+}
+
+.img-uplode {
+  width: 770px;
+  height: 100px;
+  padding: 20px 15px;
+  margin-bottom: 10px;
+  display: flex;
+  font-size: small;
+  border-bottom: 0.3px solid gray;
+}
+.uplode-text {
+  width: 700px;
+  height: 100px;
+}
+.img-uplode .uplode-tip {
+  color: red;
+}
+
+.uplode-btn {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 0.2px solid black;
+}
+
+.end-write {
+  width: 780px;
+  height: 40px;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  border-top: 0.1px solid gray;
+  border-bottom: 0.1px solid gray;
+  background-color: rgb(165, 165, 165);
+}
+
+.clip {
+  width: 390px;
+  height: 40px;
+  display: flex;
+}
+.clip > a {
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: gray;
+  background-color: white;
+}
+.en {
+  width: 390px;
+  height: 40px;
+  display: flex;
+  justify-content: end;
+}
+.en > a {
+  width: 60px;
+  padding: 10;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(92, 91, 91);
+}

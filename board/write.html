@@ -184,27 +184,73 @@
                 <div class="skin"></div>
               </div>
 
-              <div class="post-btn">
-                <a class="ca-btn">목록</a>
-                <a class="p-btn">글쓰기</a>
-              </div>
-              <div class="new-board"></div>
-              <div class="post-btn">
-                <a class="ca-btn">목록</a>
-                <a class="p-btn">글쓰기</a>
-              </div>
-              <div class="board-bottom">
-                <div class="page-nums">
-                  <div>이전</div>
-                  <div>1</div>
-                  <div>2</div>
-                  <div>3</div>
-                  <div>4</div>
-                  <div>5</div>
-                  <div>다음</div>
+              <div class="new-board">
+                <div class="toolbar">
+                  <div class="toolbar-title">
+                    <div>제목:</div>
+                    <input />
+                  </div>
+                  <div class="toolbar-tip">
+                    <div>작성자</div>
+                  </div>
+                  <div class="toolbar-save">
+                    <div>임시저장</div>
+                    <div>불러오기</div>
+                  </div>
+                </div>
+                <div class="write-content">
+                  <div class="write-edit"></div>
+                  <textarea class="write-box"></textarea>
+                </div>
+                <div class="write-btns">
+                  <div class="l-btns">
+                    <div>이미지 첨부</div>
+                    <div>파일첨부</div>
+                    <div>내짤</div>
+                    <div style="background-color: skyblue; color: white">
+                      투표
+                    </div>
+                  </div>
+                  <div class="r-btns">
+                    <div>LOL 아이콘</div>
+                  </div>
+                </div>
+
+                <div class="write-save">
+                  <div class="img-uplode">
+                    <div class="uplode-text">
+                      <div class="uplode-tip">
+                        * 이미지를 업로드 하신 후 클릭을 하셔야 본문에
+                        첨부됩니다
+                      </div>
+                      <div>* 이미지 업로드는 최대 15MB까지 가능합니다.</div>
+                      <div>* 총 5개까지 업로드 가능합니다.</div>
+                      <div>
+                        * 통신환경에따라 고용량 이미지의 업로드가 실패할 수
+                        있습니다
+                      </div>
+                      <p></p>
+                      <div>
+                        * 정보통신망에서 불법촬영물등을 유포할
+                        경우[전기통신사업법]제22조의 5 제 1항에따른
+                        삭제.접속차단등 유통방지에 필요한 조치가
+                        취해지며[성폭력처벌법] 제 14조 [청소년성보호법]제 11조에
+                        따라 형사처벌을 받을수 있습니다.
+                      </div>
+                    </div>
+                    <div class="uplode-btn">업로드</div>
+                  </div>
+                  <div class="end-write">
+                    <div class="clip">
+                      <a href="board.html">클립보드 복사후 작성완료</a>
+                    </div>
+                    <div class="en">
+                      <a href="board.html">작성완료</a>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
+              </div>
           </div>
         </div>
         <div id="right-bar">
@@ -320,6 +366,7 @@
                     <div class="text">놀태식이 돌아왔구나!</div>
                   </div>
                 </div>
+              </div>
               </div>
               <div class="ca2">
                 <header>인벤 투표</header>
@@ -727,8 +774,9 @@
           </div>
         </div>
       </div>
+      </div>
     </div>
 
-    <script src="index.js"></script>
+    <script src="write.js"></script>
   </body>
 </html>
