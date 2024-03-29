@@ -8,7 +8,7 @@
       rgba(255, 255, 255) 75%,
       rgba(255, 255, 255, 0) 100%
     ),
-    url("./lol.jpg");
+    url("../imgs/lol.jpg");
   background-repeat: no-repeat;
 }
 
@@ -567,13 +567,13 @@
   margin-top: 10px;
   width: 800px;
   height: 53px;
-  background-image: url("./patch.png");
+  background-image: url("../imgs/patch.png");
 }
 .skin {
   margin-top: 10px;
   width: 800px;
   height: 53px;
-  background-image: url("./skin.png");
+  background-image: url("../imgs/skin.png");
 }
 
 .new-board {
@@ -753,6 +753,7 @@
 .write-box {
   width: 782px;
   height: 500px;
+  resize: none;
   margin: 2px 0px 0px 0px;
   border: 0.1px solid black;
 }
@@ -835,7 +836,7 @@
   height: 40px;
   display: flex;
 }
-.clip > a {
+.clip > button {
   width: 200px;
   padding: 10px;
   text-align: center;
@@ -850,12 +851,98 @@
   display: flex;
   justify-content: end;
 }
-.en > a {
-  width: 60px;
-  padding: 10;
+.en > button {
+  width: 70px;
+  padding: 5px;
   text-align: center;
   border: 1px solid black;
   border-radius: 5px;
   color: white;
   background-color: rgb(92, 91, 91);
 }
+/* --------> content */
+.content-header {
+  width: 780px;
+  height: 50px;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(220, 216, 216);
+  border-bottom: 0.1px solid gray;
+}
+.content-body {
+  width: 800px;
+  height: 750px;
+}
+.content-title {
+  width: 770px;
+  height: 120px;
+  padding: 10px 0px 10px 30px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(163, 88, 88);
+  background-color: white;
+}
+.content-box {
+  width: 770px;
+  height: 490px;
+  padding: 10px 10px 10px 30px;
+  background-color: white;
+}
+.goodbad {
+  width: 800px;
+  height: 100px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.good {
+  width: 60px;
+  height: 50px;
+  padding: 10px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1px solid gray;
+  border-radius: 5px;
+}
+.good-num {
+  font-size: larger;
+  color: red;
+}
+.bad {
+  width: 60px;
+  height: 50px;
+  padding: 10px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1px solid gray;
+  border-radius: 5px;
+}
+.bad-num {
+  font-size: larger;
+  color: blue;
+}
+.content-comment {
+  width: 800px;
+  height: 300px;
+  margin-top: 20px;
+  background-color: blueviolet;
+}
+.comment-header {
+  width: 800px;
+  height: 30px;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+}
+/* .comment-box {
+}
+
+.comment-btns {
+} */
