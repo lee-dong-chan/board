@@ -78,33 +78,6 @@ inlinkElem[1].onmouseover = () => {
 };
 change();
 
-//-----------> 게시판
-// const numElem = document.getElementsByClassName("num");
-// const titleElem = document.getElementsByClassName("tit");
-// const userElem = document.getElementsByClassName("user");
-// const dateElem = document.getElementsByClassName("date");
-// // let title = [1, 2, 3, 4, 5];
-// let writer = [1, 2, 3, 4, 5];
-// let date = [1, 2, 3, 4, 5];
-
-// const boardData = () => {
-//   for (let i = 0; i < 48; i++) {
-//     numElem[i].innerHTML = `<div>${i + 1}<div>`;
-//   }
-//   for (let i = 0; i < 5; i++) {
-//     titleElem[i].innerHTML = `<div>${title[i]}`;
-//   }
-//   for (let i = 0; i < 5; i++) {
-//     userElem[i].innerHTML = `<div>${writer[i]}<div>`;
-//   }
-
-//   for (let i = 0; i < 5; i++) {
-//     dateElem[i].innerHTML = `<div>${date[i]}<div>`;
-//   }
-// };
-// boardData();
-// ----
-
 let page = 1;
 let count = 47;
 
