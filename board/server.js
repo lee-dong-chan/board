@@ -32,8 +32,6 @@ const getMessage = ({ header: { method, path }, body }) => {
       console.log(users);
       console.log(body.page);
 
-      //http://localhost:3000/ post
-      //post /Http/1.1
       message = makeResponse(
         "application/json",
         JSON.stringify(
@@ -78,6 +76,6 @@ const server = net.createServer((client) => {
   });
 });
 
-server.listen(3000, "127.0.0.1", () => {
-  console.log("server open of 3000 port");
+server.listen(3131, () => {
+  console.log("server open of 3131 port");
 });

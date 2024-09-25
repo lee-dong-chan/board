@@ -83,7 +83,7 @@ let count = 47;
 
 const getUsers = async () => {
   try {
-    const usersRes = await fetch("http://localhost:3000/", {
+    const usersRes = await fetch("/netapi", {
       method: "post",
       mode: "no-cors",
       body: `page=${page}&count=${count}`,

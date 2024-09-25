@@ -81,7 +81,7 @@ change();
 id = location.search.slice(4);
 const getContent = async () => {
   try {
-    const usersRes = await fetch("http://localhost:3000/board", {
+    const usersRes = await fetch("/netapi/board", {
       method: "post",
       mode: "no-cors",
       body: `id=${id}`,

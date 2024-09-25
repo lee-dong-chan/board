@@ -24,109 +24,110 @@
             <div>LOLDB</div>
           </div>
           <div id="content-wrap">
-            <div id="left-bar">
-              <div class="left-info">
-                <div class="left-header">리그오브레전드 인벤</div>
-                <div class="log-in">
-                  <form action="http://localhost:3000/" method="post">
-                  <input type="text" name="id" placeholder="ID" />
-                  <input type="text" name="pw" placeholder="pw" />
-                </div>
-                <button class="login-btn">INVEN 로그인</button>
-                </form>
-                <div class="left-membership">
-                  <div>회원가입</div>
-                  <div>ID/PW찾기</div>
-                </div>
-              </div>
+            <form action="/netapi" method="post">
+              <div id="left-bar">
+                <div class="left-info">
+                  <div class="left-header">리그오브레전드 인벤</div>
+                  <div class="log-in">
+                    <input type="text" name="id" placeholder="ID" />
+                    <input type="text" name="pw" placeholder="pw" />
+                  </div>
+                  <button class="login-btn">INVEN 로그인</button>
 
-              <div class="left-search">
-                <input type="search-box" />
-                <div class="search-btn">🔍</div>
+                  <div class="left-membership">
+                    <div>회원가입</div>
+                    <div>ID/PW찾기</div>
+                  </div>
+                </div>
+
+                <div class="left-search">
+                  <input type="search-box" />
+                  <div class="search-btn">🔍</div>
+                </div>
+                <div class="left-menu">
+                  <div class="news-menu">
+                    <header>LoL 뉴스/정보</header>
+                    <div style="color: cornflowerblue">리포터뉴스</div>
+                    <div>챔피언 공략 게시판</div>
+                    <div>유저 정보/뉴스</div>
+                    <div>팁과 노하우</div>
+                    <div>패치 노트</div>
+                    <div>버그/오류 제보 게시판</div>
+                  </div>
+                  <div class="position">
+                    <header>포지션 게시판</header>
+                    <div class="po1">
+                      <div>Top</div>
+                      <div>Jungle</div>
+                    </div>
+                    <div class="po1">
+                      <div>Mid</div>
+                      <div>bot</div>
+                    </div>
+                    <div class="po1">
+                      <div>support</div>
+                      <div></div>
+                    </div>
+                  </div>
+                  <div class="ca-menu">
+                    <header>커뮤니티 게시판</header>
+                    <div>소환사 광장</div>
+                    <div style="font-weight: 800">- LoL/e스포츠 이야기</div>
+                    <div style="font-weight: 800">- 자유 주제</div>
+                    <div style="font-weight: 800">- 서브 컬쳐</div>
+                    <div style="color: dodgerblue">LoL 티어랭킹</div>
+                    <div>이슈/토론 게시판</div>
+                    <div>사건 사고 게시판</div>
+                    <div>이미지 링크 게시판</div>
+                    <div>사이트 건의/제보</div>
+                    <div style="color: blue">와일드 리프트 게시판</div>
+                    <div style="color: blue">TFT 모드 게시판</div>
+                    <div style="color: blue">칼바람 나락 게시판</div>
+                    <div>LCK 응원 게시판</div>
+                  </div>
+                  <div class="ca-menu">
+                    <header>LoL UCC</header>
+                    <div style="color: darkmagenta">LoL 유튜브 모아보기</div>
+                    <div>팬아트/카툰 게시판</div>
+                    <div>동영상 게시판</div>
+                  </div>
+                  <div class="ca-menu">
+                    <header>LoL 파티매칭</header>
+                    <div>파티 매칭/팀원 모집</div>
+                    <div>-랭크 팀원 모집</div>
+                    <div>-칼바람 팀원 모집</div>
+                    <div>[격전] 팀원 모집</div>
+                  </div>
+                  <div class="left-ad">광고</div>
+                  <div class="ca-menu">
+                    <header>공통 커뮤니티</header>
+                    <div>오픈 이슈 갤러리</div>
+                    <div>오늘의 핫벤</div>
+                    <div>오늘의 핏벤</div>
+                    <div style="font-weight: 700">Ai 그림 그리기</div>
+                    <div>PC 견적 게시판</div>
+                    <div>더보기</div>
+                  </div>
+                  <div class="ca-menu">
+                    <header>인기 팟벤</header>
+                    <div>팟벤 바로가기</div>
+                    <div>AI그림</div>
+                    <div>--AI그림그리기(부에르)</div>
+                    <div>애니메이션</div>
+                    <div>걸그룹</div>
+                    <div>보드게임</div>
+                    <div>테일즈위버</div>
+                    <div>천애명월도M</div>
+                    <div>소울워커</div>
+                    <div>운동</div>
+                    <div>주식</div>
+                    <div>이니빵</div>
+                    <div>D2R명품관</div>
+                    <div>카스글옵</div>
+                  </div>
+                </div>
               </div>
-              <div class="left-menu">
-                <div class="news-menu">
-                  <header>LoL 뉴스/정보</header>
-                  <div style="color: cornflowerblue">리포터뉴스</div>
-                  <div>챔피언 공략 게시판</div>
-                  <div>유저 정보/뉴스</div>
-                  <div>팁과 노하우</div>
-                  <div>패치 노트</div>
-                  <div>버그/오류 제보 게시판</div>
-                </div>
-                <div class="position">
-                  <header>포지션 게시판</header>
-                  <div class="po1">
-                    <div>Top</div>
-                    <div>Jungle</div>
-                  </div>
-                  <div class="po1">
-                    <div>Mid</div>
-                    <div>bot</div>
-                  </div>
-                  <div class="po1">
-                    <div>support</div>
-                    <div></div>
-                  </div>
-                </div>
-                <div class="ca-menu">
-                  <header>커뮤니티 게시판</header>
-                  <div>소환사 광장</div>
-                  <div style="font-weight: 800">- LoL/e스포츠 이야기</div>
-                  <div style="font-weight: 800">- 자유 주제</div>
-                  <div style="font-weight: 800">- 서브 컬쳐</div>
-                  <div style="color: dodgerblue">LoL 티어랭킹</div>
-                  <div>이슈/토론 게시판</div>
-                  <div>사건 사고 게시판</div>
-                  <div>이미지 링크 게시판</div>
-                  <div>사이트 건의/제보</div>
-                  <div style="color: blue">와일드 리프트 게시판</div>
-                  <div style="color: blue">TFT 모드 게시판</div>
-                  <div style="color: blue">칼바람 나락 게시판</div>
-                  <div>LCK 응원 게시판</div>
-                </div>
-                <div class="ca-menu">
-                  <header>LoL UCC</header>
-                  <div style="color: darkmagenta">LoL 유튜브 모아보기</div>
-                  <div>팬아트/카툰 게시판</div>
-                  <div>동영상 게시판</div>
-                </div>
-                <div class="ca-menu">
-                  <header>LoL 파티매칭</header>
-                  <div>파티 매칭/팀원 모집</div>
-                  <div>-랭크 팀원 모집</div>
-                  <div>-칼바람 팀원 모집</div>
-                  <div>[격전] 팀원 모집</div>
-                </div>
-                <div class="left-ad">광고</div>
-                <div class="ca-menu">
-                  <header>공통 커뮤니티</header>
-                  <div>오픈 이슈 갤러리</div>
-                  <div>오늘의 핫벤</div>
-                  <div>오늘의 핏벤</div>
-                  <div style="font-weight: 700">Ai 그림 그리기</div>
-                  <div>PC 견적 게시판</div>
-                  <div>더보기</div>
-                </div>
-                <div class="ca-menu">
-                  <header>인기 팟벤</header>
-                  <div>팟벤 바로가기</div>
-                  <div>AI그림</div>
-                  <div>--AI그림그리기(부에르)</div>
-                  <div>애니메이션</div>
-                  <div>걸그룹</div>
-                  <div>보드게임</div>
-                  <div>테일즈위버</div>
-                  <div>천애명월도M</div>
-                  <div>소울워커</div>
-                  <div>운동</div>
-                  <div>주식</div>
-                  <div>이니빵</div>
-                  <div>D2R명품관</div>
-                  <div>카스글옵</div>
-                </div>
-              </div>
-            </div>
+            </form>
             <div id="middle-box">
               <div class="board-head">
                 <div class="tip-title">LoL 실시간 유저정보</div>
